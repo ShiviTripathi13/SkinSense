@@ -57,7 +57,7 @@ const Header = () => {
 
     useEffect(() => {
         
-        getGoogleUserData()
+        // getGoogleUserData()
         },
         []
     );
@@ -107,7 +107,7 @@ const Header = () => {
                                 )}
                                 </Menu.Item>
                                 
-                                {categories.map((category) => (
+                                {categories?.map((category) => (
                                     <Menu.Item key={category._id}>
                                     
                                     {({ active }) => (
