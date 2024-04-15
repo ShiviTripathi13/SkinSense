@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-const port =  8000;
+const port =  8000 || require('./config/keys.js').APP_URI;
 const cors = require('cors');
 const bodyParser = require('body-parser');
 require("./db/connection.js");
