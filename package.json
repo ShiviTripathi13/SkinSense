@@ -12,7 +12,7 @@
     
     "web-vitals": "^2.1.4"
   },
-  "proxy": "https://skin-sense.vercel.app/",
+  "proxy": "https://skin-sense-backend.vercel.app/",
   "scripts": {
     
   
