@@ -29,7 +29,7 @@ const productRoutes = require('./routes/productRoutes.js');
 // middlewares
 app.use(cors(
     {
-        origin: 'http://localhost:3000/',
+        origin: 'http://localhost:3000',
         methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
         credentials: true
     }
