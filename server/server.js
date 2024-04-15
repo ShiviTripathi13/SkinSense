@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-const port =  8000;
+const port =  8000 || process.env.PORT;
 const cors = require('cors');
 const bodyParser = require('body-parser');
 require("./db/connection.js");
@@ -29,7 +29,7 @@ const productRoutes = require('./routes/productRoutes.js');
 // middlewares
 app.use(cors(
     {
-        origin: 'https://skin-sense.vercel.app/',
+        origin: 'http://localhost:3000/',
         methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
         credentials: true
     }
