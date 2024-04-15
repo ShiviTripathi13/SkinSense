@@ -23,7 +23,7 @@ const Landing = () => {
             <div className="w-[50%]   pt-12"><Carousel slides={slides} /></div>
             
             <div>
-                <p className=" text-pink-600 font-serif italic text-xl text-center p-4">KaayaClique offers science-backed skincare products with antioxidants, peptides, and natural extracts. They tailor their products to individual skin types, concerns, and lifestyles. They prioritize clean ingredients, are eco-conscious, and deliver visible results for aging, ache, and dryness. KaayaClique is committed to sustainable practices and eco-conscious practices.</p>
+                <p className=" text-pink-600 font-serif italic text-xl text-center p-4">SkinSense offers science-backed skincare products with antioxidants, peptides, and natural extracts. They tailor their products to individual skin types, concerns, and lifestyles. They prioritize clean ingredients, are eco-conscious, and deliver visible results for aging, ache, and dryness. SkinSense is committed to sustainable practices and eco-conscious practices.</p>
             </div>
             <div className="flex flex-col">
                 <div></div>

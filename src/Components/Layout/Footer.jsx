@@ -9,7 +9,7 @@ const Footer = () => {
     return (<>
         <div className="bg-gradient-to-b from-gray-700 to-gray-500">
             <div className="justify-center flex  ">
-                <p className="  mt-8 text-lg text-amber-200 font-serif">All Rights Reserved@KaayaClique</p>
+                <p className="  mt-8 text-lg text-amber-200 font-serif">All Rights Reserved@SkinSense</p>
             </div>
             <div className=" grid grid-flow-col  h-auto mt-0 py-0 items-start justify-center  ">
             

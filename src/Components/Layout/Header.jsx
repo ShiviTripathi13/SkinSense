@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import {NavLink, Link} from "react-router-dom";
-import logo from "../../assets/icons/Logo KaayaClique.png";
+import logo from "../../assets/icons/Logo SkinSense.png";
 import menuicon from "../../assets/icons/icon-menu.png";
 import axios from "axios";
 import { useState } from "react";
@@ -66,10 +66,10 @@ const Header = () => {
         <header className="shadow-lg shadow-stone-300 bg-gradient-to-b from-pink-300 to-pink-50 font-serif font-semibold text-gray-100 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3 ">
             <div className="flex items-center justify-between px-4 py-3 sm:p-0">
                 <div>
-                    <img className="h-12 rounded-full" src={logo} alt="KaayaClique"/>
+                    <img className="h-12 rounded-full" src={logo} alt="SkinSense"/>
                     
                 </div>
-                <div><h1 className="text-2xl p-2 text-red-500 font-serif">KaayaClique</h1></div>
+                <div><h1 className="text-2xl p-2 text-red-500 font-serif">SkinSense</h1></div>
                 <div className="sm:hidden ">
                     <button onClick={changeIsopen} className="block text-gray-500 hover:text-white pointer-events-auto focus:text-white focus:outline-none">
                         <img  src={menuicon} alt="menu" className="h-6 w-6 fill-current"/>
